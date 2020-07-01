@@ -2,7 +2,7 @@
 
 ## What is this Project?
 
-This is a PHP-based blog that I created to post my thoughts and what I am currently learning. It consists of a landing page which contains links to all of my previous posts and a link at the bottom to the page where I make a new post. I wrote some PHP code that requires the correct username and password to be entered to access this page.
+This is a PHP-based blog that I created to post my thoughts and what I am currently learning. It consists of a landing page which contains links to all of my previous posts and a link at the bottom to the page where I make a new post. I wrote some PHP code that requires the correct username and password to be entered to access this page. It is hosted at http://icarus.cs.weber.edu/~zm83483/blog/.
 
 ## Directories:
 
