@@ -67,16 +67,16 @@ if(informationEntered()) // Function from login.php
         var text = document.getElementsByTagName('textarea')[0];
 
         // The divs add HTML to the textarea when clicked
-        document.getElementById('aBtn').onclick = function(e){ text.value += '<a href=""></a>'; };
-        document.getElementById('codeBtn').onclick = function(e){ text.value += '<code></code>'; };
-        document.getElementById('divBtn').onclick = function(e){ text.value += '<div></div>'; };
-        document.getElementById('h2Btn').onclick = function(e){ text.value += '<h2></h2>'; };
-        document.getElementById('h3Btn').onclick = function(e){ text.value += '<h3></h3>'; };
-        document.getElementById('hrBtn').onclick = function(e){ text.value += '<hr>'; };
-        document.getElementById('imgBtn').onclick = function(e){ text.value += '<img src="images/" alt="">'; };
-        document.getElementById('pBtn').onclick = function(e){ text.value += '<p></p>'; };
-        document.getElementById('sectionBtn').onclick = function(e){ text.value += '<section></section>'; };
-        document.getElementById('strongBtn').onclick = function(e){ text.value += '<strong></strong>'; };
+        document.getElementById('aBtn').onclick = function(){ text.value += '<a href=""></a>'; };
+        document.getElementById('codeBtn').onclick = function(){ text.value += '<code></code>'; };
+        document.getElementById('divBtn').onclick = function(){ text.value += '<div></div>'; };
+        document.getElementById('h2Btn').onclick = function(){ text.value += '<h2></h2>'; };
+        document.getElementById('h3Btn').onclick = function(){ text.value += '<h3></h3>'; };
+        document.getElementById('hrBtn').onclick = function(){ text.value += '<hr>'; };
+        document.getElementById('imgBtn').onclick = function(){ text.value += '<img src="images/" alt="">'; };
+        document.getElementById('pBtn').onclick = function(){ text.value += '<p></p>'; };
+        document.getElementById('sectionBtn').onclick = function(){ text.value += '<section></section>'; };
+        document.getElementById('strongBtn').onclick = function(){ text.value += '<strong></strong>'; };
     </script>
     <br>
     <a href='index.html'>Home</a>
